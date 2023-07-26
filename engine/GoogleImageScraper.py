@@ -17,7 +17,7 @@ from PIL import Image
 import re
 
 #custom patch libraries
-import engine.images_engine.patch as patch
+import engine.patch as patch
 
 class GoogleImageScraper():
     def __init__(self, webdriver_path, image_path, video_id, search_key="cat", number_of_images=1, headless=True, min_resolution=(0, 0), max_resolution=(1920, 1080), max_missed=10):

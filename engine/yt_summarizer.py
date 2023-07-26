@@ -7,8 +7,8 @@ import openai
 import engine.utils as utils
 
 import concurrent.futures
-from engine.images_engine.patch import webdriver_executable
-from engine.images_engine.GoogleImageScraper import GoogleImageScraper
+from engine.patch import webdriver_executable
+from engine.GoogleImageScraper import GoogleImageScraper
 
 from reportlab.pdfgen import canvas
 
